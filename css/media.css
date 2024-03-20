@@ -177,9 +177,217 @@
     }
 }
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    .container {
+        max-width: 440px;
+        width: 100%;
+        margin: auto;
+    }
+    .d-flex {
+        display: flex;
+        align-items: center;
+    }
+    .hero-d-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .all-btn {
+        width: 190px;
+        height: 60px;
+    }
+    .site-hero__info {
+        max-width: 526px;
+        width: 100%;
+    }
+    .site-hero__title {
+        max-width: 430px;
+        width: 100%;
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 48px;
+        text-align: center;
+    }
+    .site-hero__text {
+        max-width: 430px;
+        width: 100%;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: center;
+    }
+    .hero-btn {
+        display: flex;
+        justify-content: space-between;
+    }
+    .site-hero__image {
+        width: 430px;
+    }
+    .mechanical-d__flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mechanical-card_image {
+        width: 180px;    
+    }
+    .mechanical-card_imag{
+        width: 240px;
+        border-radius: 10px;
+    }
+    .box {
+        width: 180px;
+    }
+    .mechanical-card__img {
+        display: flex;
+        column-gap: 10px;
+    }
+    .mechanical-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        padding-top: 50px;
+        row-gap: 24px;
+    }
+    .mechanical-title {
+        width: 430px;
+        text-align: center;
+    }
+    .mechanical-text {
+        width: 430PX;
+        text-align: center;
+    }
+    .icon-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .icon-title {
+        width: 420px;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 38px;
+        padding-top: 48px;
+        text-align: center;
+    }
+    .icon-text {
+        width: 410px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: center;
+        padding-bottom: 64px;
+    }
+    .footer-text {
+        width: 272px;
+    }
+}
 
-@media (max-width: 412px) {}
+@media (max-width: 412px) {
+    .container {
+        max-width: 380px;
+        width: 100%;
+        margin: auto;
+    }
+    .d-flex {
+        display: flex;
+        align-items: center;
+    }
+    .hero-d-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .all-btn {
+        width: 160px;
+        height: 55px;
+    }
+    .site-hero__info {
+        max-width: 380px;
+        width: 100%;
+    }
+    .site-hero__title {
+        max-width: 375px;
+        width: 100%;
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 48px;
+        text-align: center;
+    }
+    .site-hero__text {
+        max-width: 370px;
+        width: 100%;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: center;
+    }
+    .hero-btn {
+        display: flex;
+        justify-content: space-between;
+    }
+    .site-hero__image {
+        width: 380px;
+    }
+    .mechanical-d__flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mechanical-card_image {
+        width: 150px;    
+    }
+    .mechanical-card_imag{
+        width: 215px;
+        border-radius: 10px;
+    }
+    .box {
+        width: 150px;
+    }
+    .mechanical-card__img {
+        display: flex;
+        column-gap: 10px;
+    }
+    .mechanical-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        padding-top: 50px;
+        row-gap: 24px;
+    }
+    .mechanical-title {
+        width: 300px;
+        text-align: center;
+    }
+    .mechanical-text {
+        width: 300PX;
+        text-align: center;
+    }
+    .icon-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .icon-title {
+        width: 290px;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 38px;
+        padding-top: 48px;
+        text-align: center;
+    }
+    .icon-text {
+        width: 280px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: center;
+        padding-bottom: 64px;
+    }
+    .footer-text {
+        width: 272px;
+    }
+}
 
 @media (max-width: 375px) {
     .d-flex {
